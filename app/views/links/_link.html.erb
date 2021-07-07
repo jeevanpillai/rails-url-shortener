@@ -1,0 +1,13 @@
+<div class="card-footer">
+	<div class= "alert alert-success">
+		<div>
+			<b>Shortend URL: </b> <a href="<%= @link.shortened_url %>" target="_blank"><%= @link.shortened_url %></a>
+		</div>
+		<div>
+			<b>Original URL: </b> <%= @link.original_url %>
+		</div>
+		<div id="count-<%= @link.lookup_code %>">
+			<b>Clicks: </b> <%= @link.count %>
+		</div>
+	</div>
+</div>

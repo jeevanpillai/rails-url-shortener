@@ -1,0 +1,12 @@
+var element = document.getElementById('short-link');
+
+var html = "<%= j render partial: 'link' %>";
+
+element.innerHTML += html;
+
+element = document.getElementById('error');
+element.innerHTML = "";
+
+// Node html = "<%= j render 'link', link: @link.shortened_url %>"
+
+// document.getElementById('short-link').appendChild(html)

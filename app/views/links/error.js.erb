@@ -1,0 +1,11 @@
+// var message = "<%= @link.errors.full_messages.join(". ") << '.' %>";
+
+// var element = document.getElementById('error');
+
+// element.innerHTML = message;
+
+var element = document.getElementById('error');
+
+var html = "<%= j render partial: 'error' %>";
+
+element.innerHTML = html;

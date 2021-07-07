@@ -1,5 +1,3 @@
-
-
 class LinksController < ApplicationController
 
 	def show
